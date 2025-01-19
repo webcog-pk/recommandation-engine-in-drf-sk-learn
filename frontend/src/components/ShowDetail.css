@@ -1,0 +1,81 @@
+/* ShowDetail.css */
+
+.show-detail {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #222; /* Dark background for the detail page */
+    color: #ffffff; /* Light text color */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .show-detail h1 {
+    font-size: 2.5em; /* Larger font size for the title */
+    margin-bottom: 10px;
+  }
+  
+  .movie-poster {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Rounded corners for the poster */
+    border-bottom: 4px solid #e50914; /* Red border at the bottom */
+  }
+  
+  .show-info {
+    margin-bottom: 20px;
+  }
+  
+  .show-info p {
+    margin: 5px 0;
+    color: #b3b3b3; /* Lighter gray for description text */
+  }
+  
+  .show-info strong {
+    color: #ffffff; /* White color for strong text */
+  }
+  
+  .similar-movies {
+    margin-top: 20px;
+  }
+  
+  .similar-show {
+    flex: 1 1 calc(33% - 20px); /* Three items per row */
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #333; /* Dark background for similar shows */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s, box-shadow 0.2s; /* Added transition for hover effect */
+  }
+  
+  .similar-show:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Enhanced shadow on hover */
+  }
+  
+  .similar-show h2 {
+    margin: 0 0 10px;
+    color: #ffffff; /* White color for similar show titles */
+  }
+  
+  .similar-show img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Rounded corners for similar show posters */
+    border-bottom: 4px solid #e50914; /* Red border for similar show posters */
+  }
+  
+  .similar-show a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #e50914; /* Netflix red */
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .similar-show a:hover {
+    background-color: #f40612; /* Darker red on hover */
+  }

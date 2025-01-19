@@ -1,0 +1,101 @@
+/* Home.css */
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #141414; /* Dark background */
+    color: #ffffff; /* Light text color */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .home {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #ffffff; /* White color for the heading */
+    margin-bottom: 20px;
+    font-size: 2.5em; /* Larger font size */
+  }
+  
+  .movies-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjusted for smaller cards */
+    gap: 20px;
+  }
+  
+  .movie-card {
+    background-color: #222; /* Dark card background */
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s; /* Added shadow transition */
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.7); /* Enhanced shadow on hover */
+  }
+  
+  .movie-poster {
+    width: 100%;
+    height: auto;
+    border-bottom: 4px solid #e50914; /* Red border at the bottom */
+  }
+  
+  .movie-card h3 {
+    font-size: 1.2em;
+    margin: 10px;
+    color: #ffffff; /* White color for movie titles */
+  }
+  
+  .movie-card p {
+    margin: 5px 10px;
+    color: #b3b3b3; /* Lighter gray for description text */
+  }
+  
+  .movie-card strong {
+    color: #ffffff; /* White color for strong text */
+  }
+  
+  .detail-link {
+    display: block;
+    text-align: center;
+    background-color: #e50914; /* Netflix red */
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .detail-link:hover {
+    background-color: #f40612; /* Darker red on hover */
+  }
+  
+  /* Similar Movies Section */
+  .similar-movies {
+    margin-top: 20px;
+  }
+  
+  .similar-movie {
+    background-color: #222; /* Dark background for similar movies */
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .similar-movie h2 {
+    font-size: 1.5em;
+    color: #ffffff; /* White color for similar movie titles */
+  }
+  
+  .similar-movie-poster {
+    width: 100%;
+    height: auto;
+    border-bottom: 4px solid #e50914; /* Red border for similar movie posters */
+  }
