@@ -7,7 +7,6 @@ We welcome contributions from the community! If you'd like to contribute, please
 3. Make your changes
 4. Submit a pull request
 
-Please make sure to read our [CONTRIBUTING.md](CONTRIBUTING.md) file for detailed instructions.
 
 ## Support Us
 
